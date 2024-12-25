@@ -4,6 +4,10 @@ import Link from "next/link";
 import { AllPosts } from "@/app/components/Posts";
 import GetStartedCode from "@/app/components/GetStartedCode";
 
+// src/app/page.tsx
+import { useEffect, useState } from "react";
+import client from "../utils/sanity.client
+
 export default async function Page() {
   return (
     <>
