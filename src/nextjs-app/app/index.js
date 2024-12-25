@@ -2,6 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import Script from 'next/script'
 import Link from 'next/link'
+import Header from 'next/header'
+import Footer from 'next/footer'
+import Style from 'public/css/style'
 
 const Home = () => {
     return (
